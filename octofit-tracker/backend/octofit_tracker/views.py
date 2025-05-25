@@ -26,7 +26,7 @@ class WorkoutViewSet(viewsets.ModelViewSet):
 
 @api_view(['GET'])
 def api_root(request, format=None):
-    base_url = 'https://[REPLACE-THIS-WITH-YOUR-CODESPACE-NAME]-8000.app.github.dev/'
+    base_url = 'https://fuzzy-eureka-94gvgj775vhpvxx-8000.app.github.dev/'
     return Response({
         'users': base_url + 'api/users/?format=api',
         'teams': base_url + 'api/teams/?format=api',
